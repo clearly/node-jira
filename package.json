@@ -10,7 +10,7 @@
     "url": "http://github.com/clearly/js-jira.git"
   },
   "engine": {
-    "node": ">=0.4.0"
+    "node": ">=0.4.3"
   },
   "main": "./lib/jira.js",
   "licenses": [
@@ -20,8 +20,8 @@
     }
   ],
   "dependencies": {
-    "request": "<2.16.0",
-    "oauth": "^0.9.11"
+    "oauth": "^0.9.11",
+    "request": "<2.16.0"
   },
   "scripts": {
     "test": "grunt test"
