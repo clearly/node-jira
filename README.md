@@ -23,11 +23,18 @@ or
 ## Examples ##
 
 ### Create the JIRA client ###
-
-    JiraApi = require('jira').JiraApi;
-    
-    var jira = new JiraApi('https', config.host, config.port, config.user, config.password, '2.0.alpha1');
-
+```  
+  JiraApi = require('jira').JiraApi;
+  var jira = new JiraApi({
+    scheme    : 'https',              // Default 'https'
+    host      : 'jira.yourdomain.com' // REQUIRED
+    port      : 443                   // Default 443
+    user      : 'MyJiraId',           // REQUIRED
+    password  : 'NotASecret'          // REQUIRED
+    version   : '2'                   // Default '2'
+    base      : 'jira'                // Default '' - The prefix in your install before /rest/api
+  });
+```
 ### Find the status of an issue ###
 
     jira.findIssue(issueNumber, function(error, issue) {
