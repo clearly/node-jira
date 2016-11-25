@@ -2,9 +2,7 @@
 
 This was forked from https://github.com/steves/node-jira . Big thanks to steves for starting the code base.
 
-[![Build Status](https://travis-ci.org/steves/node-jira.png?branch=master)](https://travis-ci.org/steves/node-jira)
-
-A node.js module, which provides an object oriented wrapper for the JIRA REST API.
+A node.js module, which provides a great interface for the JIRA REST API.
 
 This library is built to support version `2.0.alpha1` of the JIRA REST API.
 This library is also tested with version `2` of the JIRA REST API.
@@ -17,14 +15,14 @@ JIRA REST API documentation can be found [here](http://docs.atlassian.com/jira/R
 
   Install with the node package manager [npm](http://npmjs.org):
 
-    $ npm install jira
+    $ npm install js-jira
 
 or
 
   Install via git clone:
 
-    $ git clone git://github.com/steves/node-jira.git
-    $ cd node-jira
+    $ git clone git://github.com/clearly/js-jira.git
+    $ cd js-jira
     $ npm install
 
 ## Examples ##

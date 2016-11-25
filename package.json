@@ -1,16 +1,14 @@
 {
-  "name": "jira",
-  "version": "0.11.0",
-  "description": "Wrapper for the JIRA API",
-  "author": "Steven Surowiec <steven.surowiec@gmail.com>",
+  "name": "js-jira",
+  "version": "0.10.0",
+  "description": "JS based JIRA API",
+  "author": "Aaron Bawcom <abawcom@gmail.com>",
   "contributors": [
-    "Chris Moultrie <chris@moultrie.org>",
-    "Lucas Vogelsang <l@lucasvo.com>"
   ],
-  "homepage": "http://github.com/steves/node-jira",
+  "homepage": "http://github.com/clearly/js-jira",
   "repository": {
     "type": "git",
-    "url": "http://github.com/steves/node-jira.git"
+    "url": "http://github.com/clearly/js-jira.git"
   },
   "engine": {
     "node": ">=0.4.0"
