@@ -1,13 +1,13 @@
 {
   "name": "js-jira",
-  "version": "0.10.1",
+  "version": "0.0.0-development",
   "description": "JS based JIRA API",
   "author": "Aaron Bawcom <abawcom@gmail.com>",
   "contributors": [],
   "homepage": "http://github.com/clearly/js-jira",
   "repository": {
     "type": "git",
-    "url": "http://github.com/clearly/js-jira.git"
+    "url": "https://github.com/clearly/js-jira.git"
   },
   "engine": {
     "node": ">=0.4.0"
@@ -24,7 +24,8 @@
     "oauth": "^0.9.11"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "devDependencies": {
     "grunt": "^0.4.4",
@@ -33,6 +34,7 @@
     "grunt-jasmine-node": "^0.2.1",
     "coffee-script": "^1.7.1",
     "grunt-jslint": "^1.1.8",
-    "rewire": "^2.0.0"
+    "rewire": "^2.0.0",
+    "semantic-release": "^6.3.2"
   }
 }
