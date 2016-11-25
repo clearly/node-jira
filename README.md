@@ -1,4 +1,6 @@
-# JavaScript JIRA API for node.js #
+# JavaScript JIRA API#
+
+This was forked from https://github.com/steves/node-jira . Big thanks to steves for starting the code base.
 
 [![Build Status](https://travis-ci.org/steves/node-jira.png?branch=master)](https://travis-ci.org/steves/node-jira)
 
