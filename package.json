@@ -1,6 +1,6 @@
 {
   "name": "js-jira",
-  "version": "0.10.2",
+  "version": "0.11.0",
   "description": "JS based JIRA API",
   "author": "Aaron Bawcom <abawcom@gmail.com>",
   "contributors": [],
