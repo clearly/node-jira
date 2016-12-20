@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "oauth": "^0.9.11",
-    "request": "<2.16.0"
+    "request": "^2.79.0"
   },
   "scripts": {
     "test": "grunt test"
