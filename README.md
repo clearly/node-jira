@@ -25,11 +25,11 @@ or
 ### Create the JIRA client ###
 ```  
   JiraApi = require('jira').JiraApi;
-  var jira = new JiraApi({
+  var jira = new JiraApi.JiraApi({
     scheme    : 'https',              // Default 'https'
     host      : 'jira.yourdomain.com' // REQUIRED
     port      : 443                   // Default 443
-    user      : 'MyJiraId',           // REQUIRED
+    username  : 'MyJiraId',           // REQUIRED
     password  : 'NotASecret'          // REQUIRED
     version   : '2'                   // Default '2'
     base      : 'jira'                // Default '' - The prefix in your install before /rest/api
